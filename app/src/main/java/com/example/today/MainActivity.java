@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
     void show(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("안녕").setMessage("옴마마");
+        builder.setTitle("안녕").setMessage("옴마마2");
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
 
